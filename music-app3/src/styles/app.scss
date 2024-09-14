@@ -5,11 +5,13 @@
     font-family: "Gilroy", sans-serif;
 }
 body {
-    background: rgb(134, 140, 110);
+    width: 100%;
+    height: 100vh;
     background: linear-gradient(
-        180deg,
-        rgb(188, 238, 223) 0%,
-        rgb(33, 143, 132) 100%
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgb(0, 0, 0) 100%
+       
     );
 }
 
@@ -19,7 +21,7 @@ body {
 @import "./nav";
 h2,
 h3 {
-    color: #124c54;
+    color: #fdfdfd;
 }
 h3,
 h4 {
